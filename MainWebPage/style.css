@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+html, body{
+    background: #18052A;  
+    font: 15px Calibri, Verdana;
+}
+
+.links {
+    margin: auto;
+    display: block;
+    width: 50%;
+    text-align: center;
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.links li {
+    /*float: left; /* display the links as a horizontal bar */
+    margin: 0;
+    padding-right: 3px;
+    display: inline-block;
+}
+
+.links a { /* create boxes for the links and center their text within them */
+    text-decoration: none;
+    display: block;
+    background: #384263;
+    padding: 0.24em 1em;
+    color: #d3738f;
+    width: 8em;
+    height: 3em;
+    text-align: center;
+    line-height: 3em;
+}
+
+.links a:hover {
+    background: #465071;
+}
